@@ -1,7 +1,7 @@
 # csharp-calculator
 Application used on C# learning purposes
 
-##Task 1
+##Task 1 "Initial architectural proposals"
 
 Imagine simplistic caclulator application which contains next UI elements:
 * Read-only text box to show current entry or results of calculation.
@@ -25,7 +25,7 @@ I expect to obtain from you list which includes:
 
 Please do not google answer, the key of this task is to start discussion about optimal solution and evolve it together. Thank you.
 
-##Task 2
+##Task 2 "Skeleton solution, attempt to use test-driven approach"
 
 * Create new .NET Framework class library CSharpCalculator.BO which will contain pure calculation logic. Spend some time to investigate which types of projects you can create in Visual Studio.
 * In order to use test-driven approach you need to create other .NET Framework class library CSharpCalculator.BO.Test which will contain unit tests.
