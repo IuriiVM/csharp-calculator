@@ -38,7 +38,7 @@ Please do not google answer, the key of this task is to start discussion about o
 * Learn meaning of *using* directive: https://msdn.microsoft.com/en-us/library/sf0df423.aspx 
 * Learn what is the difference between static and non-static classes and how it changes the way you are calling their methods: https://msdn.microsoft.com/en-us/library/79b3xss3.aspx
 * Learn difference between public and private access modifiers: https://msdn.microsoft.com/en-us/library/ms173121.aspx
-* Make sure your solution is compilable and all tests are green.
+* Make sure your solution is compilable and all tests are executed successfully. You will probably have to install NUnit Test Adapter via Extensions and Updates in order to be able to run tests.
 * Check-in into your GitHub repository excluding unnecessary files.
 
 Do not bother with UI layer implementation. We will do that later.
