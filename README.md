@@ -1,7 +1,7 @@
 # csharp-calculator
 Application used on C# learning purposes
 
-##Task 1 "Initial architectural proposals"
+## Task 1 "Initial architectural proposals"
 
 Imagine simplistic caclulator application which contains next UI elements:
 * Read-only text box to show current entry or results of calculation.
@@ -25,7 +25,7 @@ I expect to obtain from you list which includes:
 
 Please do not google answer, the key of this task is to start discussion about optimal solution and evolve it together. Thank you.
 
-##Task 2 "Skeleton solution, attempt to use test-driven approach"
+## Task 2 "Skeleton solution, attempt to use test-driven approach"
 
 * Create new .NET Framework class library CSharpCalculator.BO which will contain pure calculation logic. Spend some time to investigate which types of projects you can create in Visual Studio.
 * In order to use test-driven approach you need to create other .NET Framework class library CSharpCalculator.BO.Test which will contain unit tests.
@@ -42,3 +42,11 @@ Please do not google answer, the key of this task is to start discussion about o
 * Check-in into your GitHub repository excluding unnecessary files.
 
 Do not bother with UI layer implementation. We will do that later.
+
+## Task 3 "Deal with NUnit test cases"
+
+* Become familiar with Arrange, Act, Assert approach: http://defragdev.com/blog/?p=783.
+* Investigate ways of doing assertions in NUnit: https://github.com/nunit/docs/wiki/Assertions. Please pay your attention on the fact that we were using classical approach for equality assertion (method Assert.AreEqual). Try to use Assert.That method instead going forward.
+* Learn how to deal with TestCase attribute: https://github.com/nunit/docs/wiki/TestCase-Attribute. Find which additional possibilities it gives us in comparison with Test attribute used in our existing example.
+* Adjust your code using TDD approach in order to handle numeric entry only.
+* Check-in into your GitHub repository excluding unnecessary files.
