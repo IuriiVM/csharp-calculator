@@ -1,19 +1,20 @@
-﻿using CSharpCalculator.BO;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
 namespace CSharpCalculator.BO.Test
 {
     [TestFixture]
     public class CalculatorServiceTest
     {
-        [Test]
-        public void ParseInputTest()
+        [TestCase("1", "3", "13")]
+        [TestCase("1", "24", "124")]
+        [TestCase("0", "2", "2")]
+        public void ParseInputTest(string previousState, string currentEntry, string expectedResult)
         {
-            var expectedResult = "12";
+            var expectedResult2 = null + "12";
 
-            var currentResult = CalculatorService.ParseInput("1", "2");
+            var currentResult = CalculatorService.ParseInput(previousState, currentEntry);
 
-            Assert.AreEqual(expectedResult, currentResult);
+            Assert.That(currentResult, Is.EqualTo(expectedResult));
         }
     }
 }
