@@ -10,8 +10,6 @@ namespace CSharpCalculator.BO.Test
         [TestCase("0", "2", "2")]
         public void ParseInputTest(string previousState, string currentEntry, string expectedResult)
         {
-            var expectedResult2 = null + "12";
-
             var currentResult = CalculatorService.ParseInput(previousState, currentEntry);
 
             Assert.That(currentResult, Is.EqualTo(expectedResult));
