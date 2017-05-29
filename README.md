@@ -50,3 +50,8 @@ Do not bother with UI layer implementation. We will do that later.
 * Learn how to deal with TestCase attribute: https://github.com/nunit/docs/wiki/TestCase-Attribute. Find which additional possibilities it gives us in comparison with Test attribute used in our existing example.
 * Adjust your code using TDD approach in order to handle numeric entry only.
 * Check-in into your GitHub repository excluding unnecessary files.
+
+## Task 4 "Busines logic adjusting"
+* Adjust your code using TDD approach in order to handle attempt to enter non-numeric value as previous input. Method should return "0" in this case.
+* Handle attempt to enter non-numeric value as new input. Method should return previous input in the case it contains valid value.
+* Handle case when previous input contains "0" (default) value. Method should return only new input in the case it contains valid value.
