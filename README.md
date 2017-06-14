@@ -55,3 +55,8 @@ Do not bother with UI layer implementation. We will do that later.
 * Adjust your code using TDD approach in order to handle attempt to enter non-numeric value as previous input. Method should return "0" in this case.
 * Handle attempt to enter non-numeric value as new input. Method should return previous input in the case it contains valid value.
 * Handle case when previous input contains "0" (default) value. Method should return only new input in the case it contains valid value.
+
+## Task 5 "Introducing WinForms UI and ability to work with arithmetic operations"
+* Introduce click event handlers for 9 numeric buttons.
+* Adjust set of unit tests and business logic in order to handle entry of arithmetic operations. Make sure that entry of single operation only is allowed. You can skip processing of second operand, but method should be able to put together say "25" and "+" etc. Please also think of proper handling of possible negative cases.
+* Add 4 buttons and event handlers related with arithmetic operations.
