@@ -60,3 +60,8 @@ Do not bother with UI layer implementation. We will do that later.
 * Introduce click event handlers for 9 numeric buttons.
 * Adjust set of unit tests and business logic in order to handle entry of arithmetic operations. Make sure that entry of single operation only is allowed. You can skip processing of second operand, but method should be able to put together say "25" and "+" etc. Please also think of proper handling of possible negative cases.
 * Add 4 buttons and event handlers related with arithmetic operations.
+
+## Task 6 "Implement calculation of end result"
+* Add ability of second numeric operand entry.
+* Add handler of '=' button click. In the case when current entry represents valid expression with two numeric operands and arithmetic operation it should be replaced with result of calculation. Otherwise click should be ignored.
+* Handling of second attempt to enter arithmetic operation should be introduced. For example, click on + in the case of current entry "5-1" should lead to output "4+".
